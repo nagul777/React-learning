@@ -1,0 +1,55 @@
+button{
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.primary{
+    background-color: coral;
+}
+.secondary{
+   background-color: teal;
+}
+.tom{
+    background-color:crimson;
+}
+.jerry{
+    background-color:burlywood;
+}
+
+.solid{
+    &.primary{
+        background-color: coral;
+    }
+    &.secondary{
+       background-color: teal;
+    }
+    &.tom{
+        background-color:crimson;
+    }
+    &.jerry{
+        background-color:burlywood;
+    }
+}
+
+.outline{
+    &.primary{
+        border-style: solid ;
+        border-color: coral;
+        background-color: transparent;
+    }
+    &.secondary{
+        border-style: solid ;
+        border-color: teal;
+        background-color: transparent;
+    }
+    &.tom{
+        border-style: solid ;
+        border-color: crimson;
+        background-color: transparent;
+    }
+    &.jerry{
+        border-style: solid ;
+        border-color: burlywood;
+        background-color: transparent;
+    }
+}
