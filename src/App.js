@@ -18,8 +18,15 @@ function App() {
         >
           Learn React
         </a> */}
+        <Button text="Hii, Iam Fine"  bgColor="primary" btntype="solid"/>
+        <Button text="Hii, Iam Fine"  bgColor="secondary" btntype="solid"/>
         <Button text="Hii, Iam Fine"  bgColor="tom" btntype="solid"/>
+        <Button text="Hii, Iam Fine"  bgColor="jerry" btntype="solid"/>
 
+        <Button text="Hii, Iam Fine"  bgColor="primary" btntype="outline"/>
+        <Button text="Hii, Iam Fine"  bgColor="secondary" btntype="outline"/>
+        <Button text="Hii, Iam Fine"  bgColor="tom" btntype="outline"/>
+        <Button text="Hii, Iam Fine"  bgColor="jerry" btntype="outline"/>
       </header>
       
     </div>
