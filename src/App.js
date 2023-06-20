@@ -14,11 +14,7 @@ function handleIncrement(x){
 
   return (
     <div className="App">
-     <Counter value={Count}/>
-     <Button value={Count} setValue={handleIncrement}/>
-
-
-     <Mouseover />
+    
     </div>
   );
 }
