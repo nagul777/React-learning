@@ -8,12 +8,12 @@
 .hover{
   max-width: 200px;
   margin: 0 auto;
-  border: 1px solid red;
+  border: 1px solid green;
   padding: 50px 30px 
 }
 .mouse-box{
   max-width: 200px;
   margin: 10px auto 0;
-  border: 1px solid red;
+  border: 1px solid green;
   padding: 50px 30px ;
 }
